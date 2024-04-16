@@ -13,7 +13,7 @@ public class OnlinePurchaseManager
   {
     int sum = 0;
     for(Gizmo giz : purchases){
-      if(giz.getMaker().equals(maker) sum++;
+      if(giz.getMaker().equals(maker))  sum++;
     }
     return sum;
   }
